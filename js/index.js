@@ -17,11 +17,6 @@
  * under the License.
  */
 var app = {
-if(window.connection){
-if(navigator.connection.type == connection.NONE){
-	alert("Please check Internet Connection");
-}
-}
     // Application Constructor
     initialize: function() {
         this.bindEvents();
