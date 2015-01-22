@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.wscodisha.app"
+    version   = "1">
+
+<name>WSCodisha</name>
+
+<description>
+App for the field officers of WSC Odisha for managing the land allocations. 
+
+Features
+- Add No. of Ashrayi
+- Add No. of Field verification
+- Add No. of Camp Court
+- Add No. of Patta Distribution
+</description>
+
+<author href="https://cupazo.co.in" email="askus@cupazo.co.in">
+Cupazo Consulting
+</author>
+
+<preference name="phonegap-version" value="3.3.0" /> 
+	
+<preference name="AllowInlineMediaPlayback" value="false" />
+<preference name="AutoHideSplashScreen" value="true" />
+<preference name="BackupWebStorage" value="cloud" />
+<preference name="DisallowOverscroll" value="false" />
+<preference name="EnableLocation" value="false" /><!-- DEPRECATED -->
+<preference name="EnableViewportScale" value="false" />
+<preference name="FadeSplashScreen" value="true" />
+<preference name="FadeSplashScreenDuration" value=".25" />
+<preference name="HideKeyboardFormAccessoryBar" value="false" />
+<preference name="KeyboardDisplayRequiresUserAction" value="true" />
+<preference name="KeyboardShrinksView" value="false" />
+<preference name="MediaPlaybackRequiresUserAction" value="false" />
+<preference name="ShowSplashScreenSpinner" value="true" />
+<preference name="SuppressesIncrementalRendering" value="false" />
+<preference name="TopActivityIndicator" value="gray" />
+
+<content src="index.html" />
+
+<plugins>
+    <plugin name="Device" value="CDVDevice" />
+    <plugin name="Logger" value="CDVLogger" />
+    <plugin name="Compass" value="CDVLocation" />
+    <plugin name="Accelerometer" value="CDVAccelerometer" />
+    <plugin name="Camera" value="CDVCamera" />
+    <plugin name="NetworkStatus" value="CDVConnection" />
+    <plugin name="Contacts" value="CDVContacts" />
+    <plugin name="Debug Console" value="CDVDebugConsole" />
+    <plugin name="Echo" value="CDVEcho" />
+    <plugin name="File" value="CDVFile" />
+    <plugin name="FileTransfer" value="CDVFileTransfer" />
+    <plugin name="Geolocation" value="CDVLocation" />
+    <plugin name="Notification" value="CDVNotification" />
+    <plugin name="Media" value="CDVSound" />
+    <plugin name="Capture" value="CDVCapture" />
+    <plugin name="SplashScreen" value="CDVSplashScreen" />
+    <plugin name="Battery" value="CDVBattery" />
+    <plugin name="Globalization" value="CDVGlobalization" />
+    <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+</plugins>
+<access origin="*" />
+
+<preference name="splash-screen-duration" value="5000" />
+<gap:splash src="splash.png" />
+<icon src="icon.png" />
+
+</widget>
